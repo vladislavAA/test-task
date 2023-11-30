@@ -1,0 +1,104 @@
+.card-favorite {
+  display: flex;
+  padding: 0 0 24px 0;
+}
+
+.card-favorite:not(:last-child) {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.card-favorite:not(:first-child) {
+  margin: 36px 0 0 0;
+}
+
+.card-favorite__img-box {
+  width: 443px;
+  min-height: 308px;
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-favorite__img {
+  width: 100%;
+}
+
+.card-favorite__info-box {
+  font-family: "Inter";
+  font-style: normal;
+  width: 834px;
+  margin-right: 10px;
+}
+
+.card-favorite__name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.card-favorite__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #595959;
+  margin: 16px 0 0 0;
+}
+
+.card-favorite__text {
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-favorite__text-medium {
+  margin: 16px 0;
+}
+
+.card-favorite__price {
+  margin: 33px 0 21px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.card-favorite__management {
+  display: flex;
+  max-width: 335px;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.card-favorite__delete {
+  border: 2px solid #d73737;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px;
+  box-sizing: border-box;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card-favorite__delete:hover {
+  background: #d73737;
+}
+
+.card-favorite__delete:hover .deleteIcon {
+  fill: #ffffff;
+}
+
+.card-favorite__delete:active {
+  background: #b72121;
+}
